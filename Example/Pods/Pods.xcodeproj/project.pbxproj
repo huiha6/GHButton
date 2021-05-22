@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006E997DB70480BFA04680C520C07642 /* Pods-GHButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 060487A394B2B71C1497CF59999C6B16 /* Pods-GHButton_Example-dummy.m */; };
+		23DFAAE1253577819071639EC3A363F4 /* GHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D564CCAC214484EFAD4E982E24658CCE /* GHButton.m */; };
+		26BE99BA7010E3D0978C3BC095915AA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3C87CEAF2ECA7D7B97D8898CBFE2CADA /* GHButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A948232681AD96D93173E9485A50E9 /* GHButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4444CA3E1DCD0C12DE30D3040C56BD01 /* Pods-GHButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E80087B88E3A4B40C035EAB5727D3854 /* Pods-GHButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FC91386EFBDE38952D7502DB82DC34F /* GHButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3CFD9EC268BD434AAB87C5B1EE6DD5 /* GHButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A4A03FE653E8338A4BBE550FBD41054 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D538095A278178C6B247353F9D9910 /* ReplaceMe.m */; };
+		719BF2E8D36706A474D82036A7DCDBF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7549495A70F5F4C992FE26BB9C9F457B /* Pods-GHButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B48FFAF8C1A924B0C29C4AC2B7CAE1F /* Pods-GHButton_Tests-dummy.m */; };
+		825B75BA5D6FA831AF991FD9DEB5D5BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E97F6D123B7FD264A545425B924A7B21 /* Pods-GHButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4893A0531F4D749C6D6797FD0536FCED /* Pods-GHButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F323BD101C57150F8E30C1A2E4F5967B /* GHButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7C27252231C8BAEC7F7D68A30790A /* GHButton-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2455FDC0170C17A54C3063AD6E1338AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FBFC9C26B043391100D56DD93004F3C;
+			remoteInfo = "Pods-GHButton_Example";
+		};
+		71B24AB32A9615437FF1B0AA7C9A619C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 357F4A47962E4218E9B49FD9F0A543F3;
+			remoteInfo = GHButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060487A394B2B71C1497CF59999C6B16 /* Pods-GHButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHButton_Example-dummy.m"; sourceTree = "<group>"; };
+		0E3CFD9EC268BD434AAB87C5B1EE6DD5 /* GHButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHButton-umbrella.h"; sourceTree = "<group>"; };
+		1E0BD9B54FD0C285E55D0FB71AA59DC7 /* Pods-GHButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		21A948232681AD96D93173E9485A50E9 /* GHButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHButton.h; path = GHButton/Classes/GHButton.h; sourceTree = "<group>"; };
+		2CF1429221CEE8CA624DC3AA29FAC179 /* GHButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GHButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		356F5DE3DCE40BDEC2816002ECE5861D /* Pods-GHButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4893A0531F4D749C6D6797FD0536FCED /* Pods-GHButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GHButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		561D5C64C3C73359BE707C3B7C5FBD24 /* GHButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GHButton-Info.plist"; sourceTree = "<group>"; };
+		625137C40507A0243D35C8943F9643A2 /* Pods-GHButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		64810A0F263A28316D90E091574AFC65 /* Pods-GHButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		658705AEF65BA8CA2FB8D24111EF8923 /* GHButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHButton.debug.xcconfig; sourceTree = "<group>"; };
+		6B48FFAF8C1A924B0C29C4AC2B7CAE1F /* Pods-GHButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GHButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		762504442D240EACD05EE504E3A35CE1 /* Pods_GHButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GHButton_Tests.framework; path = "Pods-GHButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2CBB56B64A1EF5E5A0B4B366975A69 /* Pods-GHButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EB7C27252231C8BAEC7F7D68A30790A /* GHButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GHButton-dummy.m"; sourceTree = "<group>"; };
+		8274C2307F17B73D8FFBD08BBFA74646 /* Pods-GHButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		867E901529C916CCE153416BDC0F1BA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		86B6FCDB32EDC271CA497A837FE75137 /* Pods-GHButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GHButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96D212DEE17A8FBC20A6FAADC17B5EB3 /* Pods-GHButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4D4FE48521EE9F1F9114D57CBE85782 /* Pods-GHButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GHButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B1AE1FFAC44740AEABF803FDCAAA6A47 /* GHButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GHButton.framework; path = GHButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC75BFE1382B2441DA3D41F05CF4035 /* GHButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GHButton-prefix.pch"; sourceTree = "<group>"; };
+		C1428EA707564B2871E1AEBA56B02133 /* Pods-GHButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GHButton_Example.modulemap"; sourceTree = "<group>"; };
+		C1907799A0A56EDBE41F16EF61EBC06A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C5D538095A278178C6B247353F9D9910 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GHButton/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C7B03CCF5956487E1EA3EE51A19FEE9F /* GHButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GHButton.release.xcconfig; sourceTree = "<group>"; };
+		CAF2EDBA5E2E24217DB8DCFC000545C9 /* GHButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GHButton.modulemap; sourceTree = "<group>"; };
+		D564CCAC214484EFAD4E982E24658CCE /* GHButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHButton.m; path = GHButton/Classes/GHButton.m; sourceTree = "<group>"; };
+		E5CA521B60EC117455F10E21F82FF598 /* Pods-GHButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GHButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6422EFA312EB06987891970D49DC427 /* Pods_GHButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GHButton_Example.framework; path = "Pods-GHButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80087B88E3A4B40C035EAB5727D3854 /* Pods-GHButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GHButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		E9EC405EF5A93377CDA601D5527D0F67 /* Pods-GHButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GHButton_Tests.modulemap"; sourceTree = "<group>"; };
+		F5AD2F25491FD36CFFE88A33952FCAFD /* Pods-GHButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GHButton_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0733B486DA0F8E7E172ACC0C6D71E5E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BE99BA7010E3D0978C3BC095915AA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE4BBD7E46F47955F49A68CA1C7F1B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825B75BA5D6FA831AF991FD9DEB5D5BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528168A792E61E95570248778074EFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719BF2E8D36706A474D82036A7DCDBF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C501533DE20CC18EE1E4965A9EA4D0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47399AD27A785DC9F58B917926FAF8D3 /* Pods-GHButton_Example */,
+				F213CD412B513120C49EB4CB78BADCA8 /* Pods-GHButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29E752B5F7978FB9B568E0FDE8041674 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAF2EDBA5E2E24217DB8DCFC000545C9 /* GHButton.modulemap */,
+				7EB7C27252231C8BAEC7F7D68A30790A /* GHButton-dummy.m */,
+				561D5C64C3C73359BE707C3B7C5FBD24 /* GHButton-Info.plist */,
+				BCC75BFE1382B2441DA3D41F05CF4035 /* GHButton-prefix.pch */,
+				0E3CFD9EC268BD434AAB87C5B1EE6DD5 /* GHButton-umbrella.h */,
+				658705AEF65BA8CA2FB8D24111EF8923 /* GHButton.debug.xcconfig */,
+				C7B03CCF5956487E1EA3EE51A19FEE9F /* GHButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GHButton";
+			sourceTree = "<group>";
+		};
+		2EDB9773AD7A93032C8D009B8BA91BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1AE1FFAC44740AEABF803FDCAAA6A47 /* GHButton.framework */,
+				E6422EFA312EB06987891970D49DC427 /* Pods_GHButton_Example.framework */,
+				762504442D240EACD05EE504E3A35CE1 /* Pods_GHButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E9FF6EE321B8989F969A38245A4B1A4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C05B3FC14D66C0F98A4EC7D3AA486665 /* GHButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		47399AD27A785DC9F58B917926FAF8D3 /* Pods-GHButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C1428EA707564B2871E1AEBA56B02133 /* Pods-GHButton_Example.modulemap */,
+				86B6FCDB32EDC271CA497A837FE75137 /* Pods-GHButton_Example-acknowledgements.markdown */,
+				64810A0F263A28316D90E091574AFC65 /* Pods-GHButton_Example-acknowledgements.plist */,
+				060487A394B2B71C1497CF59999C6B16 /* Pods-GHButton_Example-dummy.m */,
+				A4D4FE48521EE9F1F9114D57CBE85782 /* Pods-GHButton_Example-frameworks.sh */,
+				F5AD2F25491FD36CFFE88A33952FCAFD /* Pods-GHButton_Example-Info.plist */,
+				E80087B88E3A4B40C035EAB5727D3854 /* Pods-GHButton_Example-umbrella.h */,
+				356F5DE3DCE40BDEC2816002ECE5861D /* Pods-GHButton_Example.debug.xcconfig */,
+				96D212DEE17A8FBC20A6FAADC17B5EB3 /* Pods-GHButton_Example.release.xcconfig */,
+			);
+			name = "Pods-GHButton_Example";
+			path = "Target Support Files/Pods-GHButton_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B74384C6AE4AE9A746340D15E399687A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2CF1429221CEE8CA624DC3AA29FAC179 /* GHButton.podspec */,
+				867E901529C916CCE153416BDC0F1BA1 /* LICENSE */,
+				C1907799A0A56EDBE41F16EF61EBC06A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C05B3FC14D66C0F98A4EC7D3AA486665 /* GHButton */ = {
+			isa = PBXGroup;
+			children = (
+				21A948232681AD96D93173E9485A50E9 /* GHButton.h */,
+				D564CCAC214484EFAD4E982E24658CCE /* GHButton.m */,
+				C5D538095A278178C6B247353F9D9910 /* ReplaceMe.m */,
+				B74384C6AE4AE9A746340D15E399687A /* Pod */,
+				29E752B5F7978FB9B568E0FDE8041674 /* Support Files */,
+			);
+			name = GHButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3E9FF6EE321B8989F969A38245A4B1A4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2EDB9773AD7A93032C8D009B8BA91BE6 /* Products */,
+				01C501533DE20CC18EE1E4965A9EA4D0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F213CD412B513120C49EB4CB78BADCA8 /* Pods-GHButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E9EC405EF5A93377CDA601D5527D0F67 /* Pods-GHButton_Tests.modulemap */,
+				7E2CBB56B64A1EF5E5A0B4B366975A69 /* Pods-GHButton_Tests-acknowledgements.markdown */,
+				1E0BD9B54FD0C285E55D0FB71AA59DC7 /* Pods-GHButton_Tests-acknowledgements.plist */,
+				6B48FFAF8C1A924B0C29C4AC2B7CAE1F /* Pods-GHButton_Tests-dummy.m */,
+				625137C40507A0243D35C8943F9643A2 /* Pods-GHButton_Tests-Info.plist */,
+				4893A0531F4D749C6D6797FD0536FCED /* Pods-GHButton_Tests-umbrella.h */,
+				E5CA521B60EC117455F10E21F82FF598 /* Pods-GHButton_Tests.debug.xcconfig */,
+				8274C2307F17B73D8FFBD08BBFA74646 /* Pods-GHButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-GHButton_Tests";
+			path = "Target Support Files/Pods-GHButton_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C4EA21D30056650CC892DCEF169D63A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97F6D123B7FD264A545425B924A7B21 /* Pods-GHButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626688804A9106ED4AAA99424C5574D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC91386EFBDE38952D7502DB82DC34F /* GHButton-umbrella.h in Headers */,
+				3C87CEAF2ECA7D7B97D8898CBFE2CADA /* GHButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF55810018358B081126D0725185D097 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4444CA3E1DCD0C12DE30D3040C56BD01 /* Pods-GHButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E0CE6DAF03328705A132ED283F1FECD /* Pods-GHButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FCA354FF4C7363DBA64C15F5AD0173 /* Build configuration list for PBXNativeTarget "Pods-GHButton_Tests" */;
+			buildPhases = (
+				4C4EA21D30056650CC892DCEF169D63A /* Headers */,
+				38092371A5F7D041FA86F0B1D34A6629 /* Sources */,
+				528168A792E61E95570248778074EFA6 /* Frameworks */,
+				DF9334410A4CC02DAB7E2086B9B1113B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1E6B5CE5BB09CA20AB464FFBD340307 /* PBXTargetDependency */,
+			);
+			name = "Pods-GHButton_Tests";
+			productName = "Pods-GHButton_Tests";
+			productReference = 762504442D240EACD05EE504E3A35CE1 /* Pods_GHButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0FBFC9C26B043391100D56DD93004F3C /* Pods-GHButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02B96FE5225AC0E68B80FF444ED4A1D /* Build configuration list for PBXNativeTarget "Pods-GHButton_Example" */;
+			buildPhases = (
+				DF55810018358B081126D0725185D097 /* Headers */,
+				5E5B56AC984437FDFF16A5513890B929 /* Sources */,
+				0733B486DA0F8E7E172ACC0C6D71E5E2 /* Frameworks */,
+				2CCFCE7402243472CE3DAC0032E03007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B277DF02E49A5C0092AA45A8E8AA2C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-GHButton_Example";
+			productName = "Pods-GHButton_Example";
+			productReference = E6422EFA312EB06987891970D49DC427 /* Pods_GHButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		357F4A47962E4218E9B49FD9F0A543F3 /* GHButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44504580B419E8265D7D75B4FA9688DA /* Build configuration list for PBXNativeTarget "GHButton" */;
+			buildPhases = (
+				626688804A9106ED4AAA99424C5574D3 /* Headers */,
+				0492A8C5A45A382A662F9211E836F2FA /* Sources */,
+				0DE4BBD7E46F47955F49A68CA1C7F1B5 /* Frameworks */,
+				536C398176A11A359E36D8F613F62C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHButton;
+			productName = GHButton;
+			productReference = B1AE1FFAC44740AEABF803FDCAAA6A47 /* GHButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2EDB9773AD7A93032C8D009B8BA91BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				357F4A47962E4218E9B49FD9F0A543F3 /* GHButton */,
+				0FBFC9C26B043391100D56DD93004F3C /* Pods-GHButton_Example */,
+				0E0CE6DAF03328705A132ED283F1FECD /* Pods-GHButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CCFCE7402243472CE3DAC0032E03007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536C398176A11A359E36D8F613F62C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9334410A4CC02DAB7E2086B9B1113B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0492A8C5A45A382A662F9211E836F2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F323BD101C57150F8E30C1A2E4F5967B /* GHButton-dummy.m in Sources */,
+				23DFAAE1253577819071639EC3A363F4 /* GHButton.m in Sources */,
+				5A4A03FE653E8338A4BBE550FBD41054 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38092371A5F7D041FA86F0B1D34A6629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7549495A70F5F4C992FE26BB9C9F457B /* Pods-GHButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5B56AC984437FDFF16A5513890B929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006E997DB70480BFA04680C520C07642 /* Pods-GHButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B277DF02E49A5C0092AA45A8E8AA2C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GHButton;
+			target = 357F4A47962E4218E9B49FD9F0A543F3 /* GHButton */;
+			targetProxy = 71B24AB32A9615437FF1B0AA7C9A619C /* PBXContainerItemProxy */;
+		};
+		C1E6B5CE5BB09CA20AB464FFBD340307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GHButton_Example";
+			target = 0FBFC9C26B043391100D56DD93004F3C /* Pods-GHButton_Example */;
+			targetProxy = 2455FDC0170C17A54C3063AD6E1338AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		48F8E16DE60F48760FA6A2CE8F42E9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D212DEE17A8FBC20A6FAADC17B5EB3 /* Pods-GHButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GHButton_Example/Pods-GHButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHButton_Example/Pods-GHButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E2EFF7FFD89A1E3D20760EE75D6ADC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5CA521B60EC117455F10E21F82FF598 /* Pods-GHButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GHButton_Tests/Pods-GHButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHButton_Tests/Pods-GHButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A61666850CC468530E29B0CF502DB15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356F5DE3DCE40BDEC2816002ECE5861D /* Pods-GHButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GHButton_Example/Pods-GHButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHButton_Example/Pods-GHButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E6AC54B099C47EBA816C84BAFF5ED028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B03CCF5956487E1EA3EE51A19FEE9F /* GHButton.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GHButton/GHButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GHButton/GHButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GHButton/GHButton.modulemap";
+				PRODUCT_MODULE_NAME = GHButton;
+				PRODUCT_NAME = GHButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0D0B0ECA3C1AC267818BC046334F80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8274C2307F17B73D8FFBD08BBFA74646 /* Pods-GHButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GHButton_Tests/Pods-GHButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GHButton_Tests/Pods-GHButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F215D22AF1C1EC1DB93CF33687B13F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658705AEF65BA8CA2FB8D24111EF8923 /* GHButton.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GHButton/GHButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GHButton/GHButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GHButton/GHButton.modulemap";
+				PRODUCT_MODULE_NAME = GHButton;
+				PRODUCT_NAME = GHButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11FCA354FF4C7363DBA64C15F5AD0173 /* Build configuration list for PBXNativeTarget "Pods-GHButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E2EFF7FFD89A1E3D20760EE75D6ADC8 /* Debug */,
+				F0D0B0ECA3C1AC267818BC046334F80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44504580B419E8265D7D75B4FA9688DA /* Build configuration list for PBXNativeTarget "GHButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F215D22AF1C1EC1DB93CF33687B13F98 /* Debug */,
+				E6AC54B099C47EBA816C84BAFF5ED028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E02B96FE5225AC0E68B80FF444ED4A1D /* Build configuration list for PBXNativeTarget "Pods-GHButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61666850CC468530E29B0CF502DB15F /* Debug */,
+				48F8E16DE60F48760FA6A2CE8F42E9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

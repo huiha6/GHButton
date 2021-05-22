@@ -7,6 +7,7 @@
 //
 
 #import "GHViewController.h"
+#import "GHButton.h"
 
 @interface GHViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor orangeColor];
+    
+    GHButton *btn = [[GHButton alloc] initWithFrame:CGRectMake(100, 100, 100, 200)];
+    [self.view addSubview:btn];
 }
 
 - (void)didReceiveMemoryWarning
